@@ -11,7 +11,7 @@ export default function Home() {
         </Link>
       </div>
       <div className="menu">
-        <Link href="/form">
+        <Link href="/praxis">
           About
         </Link>
         <Link href="/about">
