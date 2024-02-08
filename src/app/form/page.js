@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from 'react';
-import StepOneForm from '@/components/StepOne';
-import Praxis from '@/components/Kooperationen';
-import Wissenschaft from '@/components/Praxisforschung';
+import StepOneForm from '../../components/StepOne';
+import Kooperationen from '../../components/Kooperationen';
+import Praxisforschung from '../../components/Praxisforschung';
 
 const Home = () => {
   const [formData, setFormData] = useState([]);
