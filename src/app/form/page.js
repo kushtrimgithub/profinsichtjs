@@ -33,10 +33,10 @@ const Home = () => {
         />
       )}
       {step === 2 && (
-        <Wissenschaft formData={formData} onGeneratePDF={handleGeneratePDF} />
+        <Praxisforschung formData={formData} onGeneratePDF={handleGeneratePDF} />
       )}
       {step === 3 && (
-        <Praxis formData={formData} onGeneratePDF={handleGeneratePDF} />
+        <Kooperationen formData={formData} onGeneratePDF={handleGeneratePDF} />
       )}
     </div>
   );
